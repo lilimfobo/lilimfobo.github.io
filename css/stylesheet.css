@@ -121,7 +121,7 @@ h5 {
 
 /*Media Queries*/
 
-/*Small devices (mobile phones/portrait tablets, less than 600px*/
+/*Small devices (mobile phones/portrait tablets, less than 700px*/
 @media screen{
   header {
     margin: auto;
@@ -135,17 +135,17 @@ h5 {
   }
 }
 
-/* Medium devices (landscape tablets, 600px and up)
-@media screen and (min-width:600px){
+/* Medium devices (landscape tablets, 700px and up) */
+@media screen and (min-width: 750px){
   main {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     overflow: unset;
   }
-} */
+}
 
-/* Large devices (laptops/desktops, 1000px and up) */
-@media screen and (min-width:1000px){
+/* Large devices (laptops/desktops, 1200px and up) */
+@media screen and (min-width:1200px){
   main {
     display: flex;
     flex-direction: row;
