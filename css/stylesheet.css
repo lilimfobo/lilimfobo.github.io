@@ -9,9 +9,9 @@ body {
 header {
   text-align: center;
   background-color: #D37815;
-  padding: 13px;
-  margin-top: 5px;
+  padding-top: 20px;
   justify-items: center;
+  width:100%;
 }
 
 footer {
@@ -119,4 +119,39 @@ h5 {
   font-size: 20px;
 }
 
+/*Media Queries*/
 
+/*Small devices (mobile phones/portrait tablets, less than 600px*/
+@media screen{
+  header {
+    margin: auto;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-menu {
+    background-color: #CAD315;
+  }
+}
+
+/* Medium devices (landscape tablets, 600px and up)
+@media screen and (min-width:600px){
+  main {
+    display: flex;
+    flex-direction: row;
+    overflow: unset;
+  }
+} */
+
+/* Large devices (laptops/desktops, 1000px and up) */
+@media screen and (min-width:1000px){
+  main {
+    display: flex;
+    flex-direction: row;
+    overflow: unset;
+  }
+  .nav-menu {
+    background-color: #D37815;
+  }
+}
