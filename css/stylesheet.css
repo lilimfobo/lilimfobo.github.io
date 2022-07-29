@@ -29,16 +29,16 @@ h1 {
 
 #sidebar {
   background: #e7ec89;
-  padding: 5px;
+  /* padding: 5px;
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 15px; */
 }
 
 #contents {
   background-color: #ffc;
-  padding: 5px;
+  /* padding: 5px;
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 15px; */
   flex: 3;
 }
 
