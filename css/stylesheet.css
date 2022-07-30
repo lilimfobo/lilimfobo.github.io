@@ -35,23 +35,23 @@ h1 {
 }
 
 #contents1 {
-  text-align: center;
-  background: #e7ec89 url(new.png);
+  background: #ffc url(new.png);
   width: auto;
-  height: 50vw;
+  height: 88vh;
 }
 
-#contents2, #contents1, #contents3  {
+#carouselExampleIndicators {
+  justify-content: left;
+}
+
+#contents2, #contents3, #contents4  {
   background-color: #ffc;
+  height: 100vh;
   /* padding: 5px;
   margin-top: 15px;
   margin-bottom: 15px;
   flex: 3; */
 }
-
-/* #contents1, #contents3 {
-  background-color: #e7ec89;
-} */
 
 a {
   text-decoration: none;
