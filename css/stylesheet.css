@@ -4,6 +4,7 @@ body {
   background: #e7ec89 url(sand.jpg) repeat;
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 header {
@@ -27,14 +28,11 @@ h1 {
   font-size: 45px;
 }
 
-#sidebar {
-  background: #e7ec89;
-  /* padding: 5px;
-  margin-top: 15px;
-  margin-bottom: 15px; */
+#contents1 {
+  text-align: center;
 }
 
-#contents1 {
+#contents2, #contents1, #contents3  {
   background-color: #ffc;
   /* padding: 5px;
   margin-top: 15px;
@@ -42,9 +40,9 @@ h1 {
   flex: 3; */
 }
 
-#contents2 {
+/* #contents1, #contents3 {
   background-color: #e7ec89;
-}
+} */
 
 a {
   text-decoration: none;
@@ -76,7 +74,7 @@ h2 {
 
 #statement {
   font-size: 25px;
-  color: #f2f4c0
+  color: #290001
 }
 
 #logo1, #logo2, #logo3 {
@@ -151,10 +149,7 @@ h5 {
 @media screen and (min-width:1200px){
   main {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     overflow: unset;
-  }
-  .nav-menu {
-    background-color: #D37815;
   }
 }
