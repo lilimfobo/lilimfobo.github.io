@@ -34,7 +34,7 @@ h1 {
 }
 
 #contents1 {
-  background: #ffc url(new.png);
+  background: #ffc url(canva.png) no-repeat;
   width: auto;
   height: 88vh;
   text-align: right;
@@ -42,11 +42,7 @@ h1 {
   align-items: center;
 }
 
-#contents3 {
-  height: 200vh;
-}
-
-#contents2, #contents3, #contents4, #contents5  {
+#contents2, #contents3, #contents4, #contents5, #contents6 {
   background-color: #ffc;
   height: 100vh;
   /* padding: 5px;
@@ -149,10 +145,6 @@ h5 {
   .nav-menu {
     background-color: #CAD315;
   }
-
-  #contents1 {
-  background: #e7ec89;
-  }
 }
 
 /* Medium devices (landscape tablets, 700px and up) */
@@ -162,8 +154,25 @@ h5 {
     flex-direction: column;
     overflow: unset;
   }
-  #contents1 {
-    background: #e7ec89;
+
+    h1  {
+      position: absolute;
+      left: 50%;
+      top: 60%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      font-size: 70px;
+      color: #e7ec89;
+    }
+
+    #statement {
+      position: absolute;
+      left: 50%;
+      top: 90%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #ffc;
+      font-size: 40px;
     }
 }
 
@@ -174,7 +183,4 @@ h5 {
     flex-direction: column;
     overflow: unset;
   }
-  #contents1 {
-    background: #e7ec89 url(canva.png);
-    }
 }
