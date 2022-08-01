@@ -14,7 +14,8 @@ body {
 header {
   text-align: center;
   background-color: #D37815;
-  padding-top: 20px;
+  padding-top: 25px;
+  padding-bottom: 5px;
   justify-items: center;
   width:100%;
 }
@@ -22,8 +23,8 @@ header {
 footer {
   background-color: #D37815;
   text-align: center;
-  /* padding: 10px; */
-  margin-bottom: 5px;
+  padding-bottom: 15px;
+  padding-top: 5px;
 }
 
 #head {
@@ -36,14 +37,10 @@ footer {
 #contents1 {
   background: #ffc url(canva.png) no-repeat;
   width: auto;
-  height: 88vh;
+  height: 90vh;
   text-align: right;
   justify-content: center;
   align-items: center;
-}
-
-#contents4 {
-  text-align: center;
 }
 
 #contents6 {
@@ -71,7 +68,7 @@ footer {
   margin-bottom: 5px;
   margin-top: 25px;
   animation-name: badges;
-  animation-duration: 5s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in;
   animation-direction: alternate-reverse;
