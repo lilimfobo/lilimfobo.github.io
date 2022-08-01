@@ -9,7 +9,6 @@ body {
   display:block;
   block-size: auto;
   margin: 0;
-  list-style: none;
 }
 
 header {
@@ -118,6 +117,42 @@ h2 {
   font-style: italic;
 }
 
+#robots {
+  justify-content: space-evenly;
+  text-align: center;
+  display: flex;
+}
+
+#robot1, #robot2{
+  width: 100px;
+  height: 130px;
+  margin-top: 25px;
+}
+
+#robot1 {
+  animation-name: robotWar1;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes robotWar1{
+  from{transform: translateX(10vw);}
+  to{transform: translateX(-10vw);}
+}
+
+#robot2 {
+  animation-name: robotWar2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes robotWar2{
+  from{transform: translateX(-10vw);}
+  to{transform: translateX(10vw);}
+}
+
 #logo1, #logo2, #logo3 {
   width: 40px;
   height: 40px;
@@ -159,6 +194,12 @@ h5 {
   margin-left: 15px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
+}
+
+#interests {
+    position:relative;
+    bottom: -7%;
+    text-align: center;
 }
 
 /*Media Queries*/
