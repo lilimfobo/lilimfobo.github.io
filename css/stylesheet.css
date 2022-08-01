@@ -58,17 +58,31 @@ footer {
 }
 
 #codeSpace, #coursera, #uhs{
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   margin-left: 20px;
   margin-bottom: 5px;
-  margin-top: 15px;
-  display: inline;
-  justify-content: space-between;
+  margin-top: 25px;
+  animation-name: badges;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-direction: alternate-reverse;
 }
 
 #badges {
+  justify-content: space-evenly;
+  text-align: center;
+  display: flex;
+}
 
+@keyframes badges {
+  0%   {transform: rotatey(0deg);
+  }
+  50%  {transform: rotatey(180deg);
+  }
+  100% {transform:rotatey(360deg); 
+  }
 }
 
 
