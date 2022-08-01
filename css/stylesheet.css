@@ -26,7 +26,7 @@ footer {
   margin-bottom: 5px;
 }
 
-h1 {
+#head {
   color: #D37815;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 90px;
@@ -49,6 +49,12 @@ h1 {
   margin-top: 15px;
   margin-bottom: 15px;
   flex: 3; */
+}
+
+#intro {
+  text-align: center;
+  color: #290001;
+  font-size: 25px;
 }
 
 a {
@@ -133,7 +139,7 @@ h5 {
   .nav-menu {
     background-color: #CAD315;
   }
-  h1  {
+  #head  {
     position: absolute;
     left: 50%;
     top: 70%;
@@ -167,7 +173,7 @@ h5 {
     overflow: unset;
   }
 
-    h1  {
+    #head  {
       position: absolute;
       left: 50%;
       top: 60%;
@@ -189,13 +195,13 @@ h5 {
 }
 
 /* Large devices (laptops/desktops, 1200px and up) */
-@media screen and (min-width:1000px){
+@media screen and (min-width:1200px){
   main {
     display: flex;
     flex-direction: column;
     overflow: unset;
   }
-  h1  {
+  #head  {
     top: 0%;
     font-size: 90px;
     color: #290001;
