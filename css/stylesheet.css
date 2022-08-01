@@ -70,18 +70,6 @@ h2 {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/* #profilePhoto {
-  height: 30vw;
-  width: 0vw;
-  border-radius: 10%;
-  border-width: 4px;
-  border-color: #f2f4c0;
-  border-style: solid;
-  display: flex;
-  flex-direction: initial;
-  margin-top: 7vw;
-} */
-
 #statement {
   font-size: 25px;
   color: #290001;
@@ -145,6 +133,30 @@ h5 {
   .nav-menu {
     background-color: #CAD315;
   }
+  h1  {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 50px;
+    font-stretch:extra-expanded;
+    color: #e7ec89;
+    padding: 0;
+  }
+
+  #statement {
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffc;
+    font-size: 31px;
+    margin: auto;
+    padding: 0;
+    font-stretch: extra-expanded;
+  }
 }
 
 /* Medium devices (landscape tablets, 700px and up) */
@@ -177,10 +189,22 @@ h5 {
 }
 
 /* Large devices (laptops/desktops, 1200px and up) */
-@media screen and (min-width:1200px){
+@media screen and (min-width:1000px){
   main {
     display: flex;
     flex-direction: column;
     overflow: unset;
   }
+  h1  {
+    top: 0%;
+    font-size: 90px;
+    color: #290001;
+  }
+
+  #statement {
+    top: 50%;
+    text-align: right;
+    color: #D37815;
+    font-size: 50px;
+}
 }
