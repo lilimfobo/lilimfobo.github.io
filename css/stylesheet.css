@@ -9,6 +9,7 @@ body {
   display:block;
   block-size: auto;
   margin: 0;
+  list-style: none;
 }
 
 header {
@@ -42,13 +43,14 @@ footer {
   align-items: center;
 }
 
+#contents4 {
+  text-align: center;
+}
+
 #contents2, #contents3, #contents4, #contents5, #contents6 {
   background-color: #ffc;
   height: 100vh;
-  /* padding: 5px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  flex: 3; */
+  text-align: center;
 }
 
 #intro {
@@ -85,19 +87,6 @@ footer {
   }
 }
 
-
-/* #codeSpace {
- flex: 2;
-}
-
-#coursera {
-  flex: 2;
-}
-
-#uhs {
- flex: 2; 
-} */
-
 a {
   text-decoration: none;
   color: #290001
@@ -105,6 +94,12 @@ a {
 
 a:hover {
 color:#D37815;
+}
+
+#htmlCSS {
+  justify-content: center;
+  height: 350px;
+  width: 350px;
 }
 
 h2 {
