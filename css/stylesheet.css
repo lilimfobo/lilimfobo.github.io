@@ -31,8 +31,6 @@ h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 90px;
   margin-top: 20%;
-  justify-content: center;
-  align-items: center;
 }
 
 #contents1 {
@@ -44,7 +42,11 @@ h1 {
   align-items: center;
 }
 
-#contents2, #contents3, #contents4  {
+#contents3 {
+  height: 200vh;
+}
+
+#contents2, #contents3, #contents4, #contents5  {
   background-color: #ffc;
   height: 100vh;
   /* padding: 5px;
