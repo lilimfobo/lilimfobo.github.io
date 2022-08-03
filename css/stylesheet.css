@@ -14,8 +14,8 @@ body {
 header {
   text-align: center;
   background-color: #D37815;
-  padding-top: 25px;
-  padding-bottom: 5px;
+  /* padding-top: 25px;
+  padding-bottom: 5px; */
   justify-items: center;
   width:100%;
 }
@@ -23,7 +23,7 @@ header {
 footer {
   background-color: #D37815;
   text-align: center;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   padding-top: 5px;
 }
 
@@ -37,7 +37,7 @@ footer {
 #contents1 {
   background: #ffc url(canva.png) no-repeat;
   width: auto;
-  height: 90vh;
+  height: 93vh;
   text-align: right;
   justify-content: center;
   align-items: center;
@@ -58,15 +58,15 @@ footer {
 #intro {
   text-align: center;
   color: #290001;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 #codeSpace, #coursera, #uhs{
-  width: 150px;
-  height: 150px;
+  width: 10vw;
+  height: 15vh;
   margin-left: 20px;
   margin-bottom: 5px;
-  margin-top: 25px;
+  margin-top: 10px;
   animation-name: badges;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -85,7 +85,7 @@ footer {
   }
   50%  {transform: rotatey(180deg);
   }
-  100% {transform:rotatey(360deg); 
+  100% {transform:rotatey(360deg);
   }
 }
 
@@ -100,15 +100,15 @@ color:#D37815;
 
 #htmlCSS {
   justify-content: center;
-  height: 350px;
-  width: 350px;
+  height:20vh;
+  width: 20vw;
 }
 
 h2 {
-  font-size: 34px;
+  font-size: 30px;
   background-color: #CAD315;
   margin: 20px;
-  padding: 30px;
+  padding: 25px;
   color: #f2f4c0;
   border-radius: 10px 20px 30px 40px;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -127,9 +127,8 @@ h2 {
 }
 
 #robot1, #robot2{
-  width: 100px;
-  height: 130px;
-  margin-top: 25px;
+  width: 10vw;
+  height: 15vh;
 }
 
 #robot1 {
@@ -177,7 +176,7 @@ p {
 
 h3 {
   margin: 10px;
-  font-size: 28px;
+  font-size: 23px;
   color: #290001;
 }
 
@@ -196,7 +195,7 @@ h5 {
   color: #D37815;
   margin-left: 15px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 #interests {
@@ -228,10 +227,10 @@ h5 {
   #head  {
     position: absolute;
     left: 50%;
-    top: 70%;
+    top: 65%;
     transform: translate(-50%, -50%);
     text-align: center;
-    font-size: 50px;
+    font-size: 42px;
     font-stretch:extra-expanded;
     color: #e7ec89;
     padding: 0;
@@ -244,10 +243,11 @@ h5 {
     transform: translate(-50%, -50%);
     text-align: center;
     color: #ffc;
-    font-size: 31px;
+    font-size: 25px;
     margin: auto;
     padding: 0;
     font-stretch: extra-expanded;
+    margin-top: 3px;;
   }
 }
 
@@ -262,26 +262,51 @@ h5 {
     #head  {
       position: absolute;
       left: 50%;
-      top: 60%;
+      top: 62%;
       transform: translate(-50%, -50%);
-      text-align: center;
-      font-size: 70px;
+      text-align: right;
+      font-size: 60px;
       color: #e7ec89;
     }
 
     #statement {
       position: absolute;
       left: 50%;
-      top: 90%;
+      top: 94%;
       transform: translate(-50%, -50%);
-      text-align: center;
+      text-align: right;
       color: #ffc;
-      font-size: 40px;
+      font-size: 22px;
+      margin-top: 3px;
     }
 }
 
-/* Large devices (laptops/desktops, 1200px and up) */
-@media screen and (min-width:1200px){
+/* Large devices (laptops/desktops, 900px and up) */
+@media screen and (min-width:900px){
+  main {
+    display: flex;
+    flex-direction: column;
+    overflow: unset;
+  }
+  #head  {
+    top: 55%;
+    font-size: 55px;
+    color: #290001;
+    left: 63%;
+  }
+
+  #statement {
+    top: 90%;
+    color: #ffc;
+    font-size: 26px;
+    margin-top: 5px;
+    left: 60%;
+    margin-left: 0;
+}
+}
+
+/* Extra-large devices (laptops/desktops, 1300px and up) */
+@media screen and (min-width:1300px){
   main {
     display: flex;
     flex-direction: column;
@@ -289,14 +314,16 @@ h5 {
   }
   #head  {
     top: 0%;
-    font-size: 90px;
+    font-size: 70px;
     color: #290001;
+    left: 55%;
   }
 
   #statement {
     top: 50%;
-    text-align: right;
     color: #D37815;
-    font-size: 50px;
+    font-size: 35px;
+    left: 55%;
+    margin-top: 5px;
 }
 }
